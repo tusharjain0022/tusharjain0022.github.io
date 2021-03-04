@@ -1,0 +1,21 @@
+.navbar {
+  background: #ffffff;
+  box-shadow: 0px 5px 30px 5px rgba(0, 0, 0, 0.25);
+}
+.navbar .navbar-brand {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 20px;
+  /* or 71% */
+
+  color: #f0a500;
+}
+.navbar .navbar-nav .nav-link {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  color: #f0a500;
+  margin-left: 20px;
+}
