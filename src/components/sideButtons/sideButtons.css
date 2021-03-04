@@ -1,0 +1,63 @@
+.SideButtonBar {
+  background-color: #f0a500;
+  position: fixed;
+  width: 38px;
+  height: 383px;
+  left: 0px;
+  top: 0px;
+}
+.iconBar {
+  background-color: #f0a500;
+  position: fixed;
+  width: 48px;
+  height: 383px;
+  right: 0px;
+  bottom: 0px;
+  text-align: justify;
+}
+.iconBar .socialIcons {
+  margin: 90% auto;
+  width: 25px;
+  height: 25px;
+  display: block;
+}
+.SideButtonBar .upButton {
+  height: 55%;
+}
+.SideButtonBar .upButton:hover {
+  background-color: rgba(0, 0, 0, 0.25);
+}
+.SideButtonBar .upButton .upIcon {
+  margin-top: 130px;
+  width: 25px;
+  height: 25px;
+  margin-left: -5px;
+}
+.SideButtonBar .downButton {
+  height: 45%;
+}
+.SideButtonBar .downButton:hover {
+  background-color: rgba(0, 0, 0, 0.25);
+}
+.SideButtonBar .downButton .downIcon {
+  margin-top: 40px;
+  width: 25px;
+  height: 25px;
+  margin-left: -5px;
+}
+@media (max-width: 576px) {
+  .iconBar {
+    background-color: #f0a500;
+    position: fixed;
+    width: 100vw;
+    height: 55px;
+    right: 0px;
+    bottom: 0px;
+  }
+  .iconBar .socialIcons {
+    margin: 16px 6.5%;
+    width: 25px;
+    height: 25px;
+    display: inline;
+  }
+}
