@@ -55,4 +55,8 @@
   .landingPage .textBox h3 {
     margin: 40px auto;
   }
+  .landingPage {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
 }
