@@ -1,0 +1,14 @@
+.footer {
+  background-color: #1e212d;
+  height: 50px;
+  margin-top: 60px;
+}
+.footer p {
+  color: #fff;
+  padding: 10px;
+}
+@media (max-width: 576px) {
+  .footer {
+    height: 120px;
+  }
+}

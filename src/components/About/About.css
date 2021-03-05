@@ -1,0 +1,78 @@
+.aboutMe {
+  padding-left: 30px;
+  padding-right: 40px;
+  /* position: relative; */
+}
+.aboutMe .mainHeading {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 72px;
+  color: #f0a500;
+  margin: 40px 0px 10px 0px;
+}
+
+.aboutMe .smallText {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 32px;
+}
+.aboutMe .subHeading {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 54px;
+  margin: 30px 0px;
+}
+.aboutMe .connectorImg {
+  /* position: absolute; */
+  width: 20px;
+  height: 100px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  /* left: 500px;
+  top: 315px; */
+}
+.aboutMe .textContainer {
+  width: 45%;
+}
+.aboutMe .imgContainer {
+  width: 10%;
+}
+
+.aboutMe .textLeft {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 30px;
+  text-align: right;
+  padding-right: 0px;
+}
+.aboutMe .textRight {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 30px;
+  text-align: left;
+  padding-left: 0px;
+}
+.aboutMe .mobTextBold {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+
+  text-align: center;
+  padding-right: 0px;
+}
+.aboutMe .mobText {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+
+  text-align: left;
+  padding-left: 0px;
+}
+.aboutMe .techList {
+  text-align: center;
+}
