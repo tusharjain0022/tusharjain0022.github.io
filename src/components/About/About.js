@@ -29,7 +29,7 @@ function About() {
           </p>
         </div>
         <div className="imgContainer d-none d-md-block">
-          <img src={connector} className="connectorImg"></img>
+          <img src={connector} className="connectorImg" alt="connector"></img>
         </div>
 
         <div className="textContainer d-none d-md-block">
@@ -57,7 +57,7 @@ function About() {
             className="imgContainer"
             style={{ display: "block", margin: "-20px auto 0px auto" }}
           >
-            <img src={connector} className="connectorImg"></img>
+            <img src={connector} className="connectorImg" alt="connector"></img>
           </div>
           <p className="mobText" style={{ textAlign: "center" }}>
             (2019 - 2023 )
