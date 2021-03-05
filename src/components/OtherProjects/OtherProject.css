@@ -1,0 +1,48 @@
+.otherproject {
+  margin-bottom: 120px;
+}
+@media (max-width: 576px) {
+  .otherproject {
+    margin-bottom: 60px;
+  }
+}
+.otherproject .mainHeading {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 72px;
+  color: #f0a500;
+  margin: 20px 0px 20px 0px;
+}
+.otherProjectCard {
+  background: #ffffff;
+
+  box-sizing: content-box;
+  box-shadow: 10px 20px 20px 5px rgba(0, 0, 0, 0.4);
+  border-radius: 20px;
+  margin: 10px 20px;
+}
+.otherProjectCard:hover {
+  border: 2px solid #f0a500;
+}
+.otherproject .imgContainer {
+  height: 120px;
+  border-radius: 18px 18px 0px 0px;
+  overflow: hidden;
+}
+.otherproject .imgContainer img {
+  width: 100%;
+  height: auto;
+  size: cover;
+}
+.otherProjectCard .text {
+  padding: 20px 30px;
+  text-align: left;
+  color: #4a3933;
+}
+.otherproject .text p {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 20px;
+}

@@ -1,3 +1,29 @@
+.contactSection .mainHeading {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 72px;
+  color: #f0a500;
+  margin: 40px 0px 10px 0px;
+}
+
+.contactSection .smallText {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 24px;
+}
+.contactSection .readButton {
+  border: 1.5px solid #f0a500;
+  box-sizing: border-box;
+  border-radius: 4px;
+  padding: 5px 38px;
+  display: inline-block;
+}
+.contactSection .readButton:hover {
+  background-color: rgba(240, 165, 0, 0.8);
+  color: #ffffff;
+}
 .footer {
   background-color: #1e212d;
   height: 50px;
