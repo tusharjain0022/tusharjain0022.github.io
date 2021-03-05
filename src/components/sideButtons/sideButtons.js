@@ -13,11 +13,21 @@ function SideButton() {
         </div>
       </div>
       <div className="iconBar">
-        <img src={GitHub} alt="github icon" className="socialIcons"></img>
-        <img src={GitHub} alt="github icon" className="socialIcons"></img>
-        <img src={GitHub} alt="github icon" className="socialIcons"></img>
-        <img src={GitHub} alt="github icon" className="socialIcons"></img>
-        <img src={GitHub} alt="github icon" className="socialIcons"></img>
+        <div className="iconButton">
+          <img src={GitHub} alt="github icon" className="socialIcons"></img>
+        </div>
+        <div className="iconButton">
+          <img src={GitHub} alt="github icon" className="socialIcons"></img>
+        </div>
+        <div className="iconButton">
+          <img src={GitHub} alt="github icon" className="socialIcons"></img>
+        </div>
+        <div className="iconButton">
+          <img src={GitHub} alt="github icon" className="socialIcons"></img>
+        </div>
+        <div className="iconButton">
+          <img src={GitHub} alt="github icon" className="socialIcons"></img>
+        </div>
       </div>
     </>
   );
