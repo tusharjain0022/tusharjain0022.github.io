@@ -11,7 +11,14 @@ function BlogBox(props) {
           </div>{" "}
           <div className="blogIntro">
             {" "}
-            <h2>Tushar Jain</h2>
+            <a
+              href="https://dev.to/tusharjain0022"
+              className="readButton link"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <h2>Tushar Jain</h2>
+            </a>{" "}
             <p className="date">{props.date}</p>
             <div className="tags d-none d-lg-block">
               <p
@@ -154,9 +161,23 @@ function BlogBox(props) {
               #{props.tag4}
             </span>
           </p>
-          <h3>{props.title}</h3>
+          <a
+            className="link"
+            href={props.link}
+            target="_blank"
+            rel="noreferrer"
+          >
+            <h3>{props.title}</h3>
+          </a>
           <h5>{props.intro}</h5>
-          <p className="readButton">Read Full Blog</p>
+          <a
+            className="readButton link"
+            href={props.link}
+            target="_blank"
+            rel="noreferrer"
+          >
+            Read Full Blog
+          </a>
           <p
             style={{
               fontWeight: "300",

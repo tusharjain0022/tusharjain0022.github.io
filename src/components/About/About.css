@@ -74,5 +74,6 @@
   padding-left: 0px;
 }
 .aboutMe .techList {
-  text-align: center;
+  text-align: left;
+  margin-left: 60px;
 }

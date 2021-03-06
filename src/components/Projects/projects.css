@@ -67,3 +67,37 @@
   font-size: 16px;
   line-height: 24px;
 }
+.projectComponent .githubIcon {
+  background-image: url("../../assets/images/icons/brownGitHub.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 35px;
+  height: 35px;
+  display: inline-block;
+  margin: 0px 10px;
+}
+.projectComponent .githubIcon:hover {
+  background-image: url("../../assets/images/icons/yellowGitHub.svg");
+  background-size: contain;
+  width: 35px;
+  height: 35px;
+  display: inline-block;
+  margin: 0px 10px;
+}
+.projectComponent .siteLink {
+  background-image: url("../../assets/images/icons/SiteLink.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+  margin: 0px 10px;
+}
+.projectComponent .siteLink:hover {
+  background-image: url("../../assets/images/icons/yellowSiteLink.svg");
+  background-size: contain;
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+  margin: 0px 10px;
+}

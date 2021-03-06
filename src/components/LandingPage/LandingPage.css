@@ -47,6 +47,10 @@
 .landingPage .textBox h3:hover {
   background-color: rgba(255, 255, 255, 0.25);
 }
+.landingPage .link:hover {
+  text-decoration: none;
+  color: inherit;
+}
 
 @media (max-width: 576px) {
   .landingPage .textBox {

@@ -1,5 +1,4 @@
 import "./projects.css";
-import github from "../../assets/images/icons/brownGitHub.svg";
 
 function ProjectComponent(props) {
   return (
@@ -20,8 +19,22 @@ function ProjectComponent(props) {
             <h5 className="projectIntro">{props.intro}</h5>
           </div>
           <p className="mt-4">{props.tech}</p>
-          <img src={github} className="me-4" alt="github icon"></img>
-          <img src={github} alt="github icon"></img>
+          <a
+            href={props.githubLink}
+            className="link"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <div className="githubIcon"></div>
+          </a>
+          <a
+            href={props.siteLink}
+            className="link"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <div className="siteLink"></div>
+          </a>
         </div>
       </div>
     </div>

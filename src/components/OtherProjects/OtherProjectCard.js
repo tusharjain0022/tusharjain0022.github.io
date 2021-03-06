@@ -1,5 +1,4 @@
 import "./OtherProject.css";
-import github from "../../assets/images/icons/brownGitHub.svg";
 function OtherProjectCard(props) {
   return (
     <div className="col-12 col-md-4 my-3 my-md-0">
@@ -10,8 +9,22 @@ function OtherProjectCard(props) {
         <div className="text">
           <h4>{props.title}</h4>
           <p>{props.intro}</p>
-          <img src={github} className="me-4" alt="github icon"></img>
-          <img src={github} alt="github icon"></img>
+          <a
+            href={props.githubLink}
+            className="link"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <div className="githubIcon"></div>
+          </a>
+          <a
+            href={props.siteLink}
+            className="link"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <div className="siteLink"></div>
+          </a>
         </div>
       </div>
     </div>

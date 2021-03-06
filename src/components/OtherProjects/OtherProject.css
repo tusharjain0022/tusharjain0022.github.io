@@ -9,10 +9,10 @@
 .otherproject .mainHeading {
   font-style: normal;
   font-weight: 600;
-  font-size: 36px;
+  font-size: 32px;
   line-height: 72px;
-  color: #f0a500;
-  margin: 20px 0px 20px 0px;
+  color: #4a3933;
+  margin: 0px 0px 20px 0px;
 }
 .otherProjectCard {
   background: #ffffff;
@@ -22,9 +22,9 @@
   border-radius: 20px;
   margin: 10px 20px;
 }
-.otherProjectCard:hover {
+/* .otherProjectCard:hover {
   border: 2px solid #f0a500;
-}
+} */
 .otherproject .imgContainer {
   height: 120px;
   border-radius: 18px 18px 0px 0px;
@@ -45,4 +45,38 @@
   font-weight: 300;
   font-size: 16px;
   line-height: 20px;
+}
+.otherproject .githubIcon {
+  background-image: url("../../assets/images/icons/brownGitHub.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 35px;
+  height: 35px;
+  display: inline-block;
+  margin: 0px 10px;
+}
+.otherproject .githubIcon:hover {
+  background-image: url("../../assets/images/icons/yellowGitHub.svg");
+  background-size: contain;
+  width: 35px;
+  height: 35px;
+  display: inline-block;
+  margin: 0px 10px;
+}
+.otherproject .siteLink {
+  background-image: url("../../assets/images/icons/SiteLink.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+  margin: 0px 10px;
+}
+.otherproject .siteLink:hover {
+  background-image: url("../../assets/images/icons/yellowSiteLink.svg");
+  background-size: contain;
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+  margin: 0px 10px;
 }

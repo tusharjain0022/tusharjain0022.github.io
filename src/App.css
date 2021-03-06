@@ -7,6 +7,18 @@
   height: 40vmin;
   pointer-events: none;
 }
+.link {
+  text-decoration: none;
+  color: inherit;
+}
+/* .link:hover {
+  text-decoration: none;
+  color: inherit;
+} */
+.link:active {
+  text-decoration: none;
+  color: inherit;
+}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {

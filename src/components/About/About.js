@@ -1,18 +1,19 @@
 import "./About.css";
 import connector from "../../assets/images/connector.svg";
-import triangle from "../../assets/images/triangle.svg";
+// import triangle from "../../assets/images/triangle.svg";
 
 function About() {
   return (
-    <div className="aboutMe container">
+    <div className="aboutMe container" id="about">
       <div className="row">
         <div className="col-12">
           <h4 className="mainHeading">About me</h4>
           <h4 className="smallText">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce
-            tempus elementum purus, sit amet dictum magna ultrices sit amet.
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce
-            tempus elementum purus, sit amet dictum magna ultrices sit amet.
+            I'm Tushar Jain, a Full Stack Web Developer, and a UI/UX designer,
+            Currently pursuing my BTech course in Computer Science and
+            Engineering from the Indian Institute of Information Technology,
+            Ranchi. I've been into web development for a year. Besides this, I
+            also do Competitive Coding and that too from the last year.
           </h4>
           <h4 className="subHeading">Education</h4>
         </div>
@@ -25,7 +26,7 @@ function About() {
 
           <p className="textLeft">
             {" "}
-            B.Tech in Computer Science and Engineering <br />( 2019 - 2023 )
+            Senior Secondary Education - CBSE <br />( 2018 - 2019 )
           </p>
         </div>
         <div className="imgContainer d-none d-md-block">
@@ -39,7 +40,8 @@ function About() {
           </p>
           <p className="textRight">
             {" "}
-            Central Board of Secondary Education <br />
+            National Victor Public School, Delhi
+            <br />
             Class 12th - 94.4 %{" "}
           </p>
         </div>
@@ -60,21 +62,20 @@ function About() {
             <img src={connector} className="connectorImg" alt="connector"></img>
           </div>
           <p className="mobText" style={{ textAlign: "center" }}>
-            (2019 - 2023 )
+            (2018 - 2019 )
           </p>
           <p className="mobTextBold">
-            B.Tech in Computer Science and Engineering (CGPA - 9.18)<br></br>
+            Senior Secondary Education - CBSE ( Class 12th - 94.4 %)<br></br>
             <span className="mobText">
-              INDIAN INSTITUTE OF INFORMATION TECHNOLOGY, RANCHI
+              National Victor Public School, Delhi
             </span>
           </p>
         </div>
-        <div className="col-12">
+        {/* <div className="col-12">
           <h4 className="subHeading">Skills</h4>
           <p className="smallText">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce
-            tempus elementum purus, sit amet dictum magna ultrices sit amet.
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            MERN stack Developer | PHP Fullstack Developer | Python enthusiast |
+            Graphic designer | Sketch Artist
           </p>
         </div>
         <div className="col-6 col-md-4">
@@ -356,7 +357,7 @@ function About() {
               </p>
             </li>
           </ul>
-        </div>
+        </div> */}
       </div>
     </div>
   );

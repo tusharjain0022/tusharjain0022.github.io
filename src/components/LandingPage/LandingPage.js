@@ -13,10 +13,17 @@ function LandingPage() {
               I'm a FullStack Web Developer
             </h1>
             <h2 className="smallText">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce
-              tempus elementum purus, sit amet dictum magna ultrices sit amet.
+              Computer Science and Engineering B.Tech Undergraduate from the
+              Indian Institute of Information technology, Ranchi.
             </h2>
-            <h3>View Resume</h3>
+            <a
+              href="https://drive.google.com/file/d/1qzre1W7e31bquBUEOYyKLa5dJ_3ESpJA/view?usp=sharing"
+              className="link"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <h3>View Resume</h3>
+            </a>
           </div>
           <div className="col-lg-4 d-none d-lg-block">
             <img src={Tushar} alt="Tushar" className="tushar"></img>
