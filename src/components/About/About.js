@@ -9,11 +9,11 @@ function About() {
         <div className="col-12">
           <h4 className="mainHeading">About me</h4>
           <h4 className="smallText">
-            I'm Tushar Jain, a Full Stack Web Developer, and a UI/UX designer,
-            Currently pursuing my BTech course in Computer Science and
-            Engineering from the Indian Institute of Information Technology,
-            Ranchi. I've been into web development for a year. Besides this, I
-            also do Competitive Coding and that too from the last year.
+            I'm Tushar Jain, a highly motivated and dedicated Fullstack
+            Developer, and a UI/UX designer, Currently pursuing Bachelor of
+            Technology in Computer Science and Engineering from the Indian
+            Institute of Information Technology, Ranchi. Looking for internship
+            opportunities to enhance and explore my technical knowledge.
           </h4>
           <h4 className="subHeading">Education</h4>
         </div>
