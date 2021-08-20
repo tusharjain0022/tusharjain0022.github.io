@@ -17,7 +17,7 @@ function LandingPage() {
               Indian Institute of Information technology, Ranchi.
             </h2>
             <a
-              href="https://drive.google.com/file/d/1g8gjNbiIdtMFUy1ePVcpaKjE_SULB_dP/view?usp=sharing"
+              href="https://drive.google.com/drive/folders/13l955XStS-RjpFZUW37yBp7yR90zONKv?usp=sharing"
               className="link"
               target="_blank"
               rel="noreferrer"
